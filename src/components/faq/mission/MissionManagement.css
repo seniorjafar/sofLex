@@ -1,0 +1,25 @@
+.mission-header,
+.management-header {
+  color: #4caf50; /* Green color for headers */
+  font-weight: bold;
+}
+
+img {
+  border-radius: 8px; /* Adds a slight roundness to the image edges */
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .mission-header,
+  .management-header {
+    text-align: center;
+  }
+
+  img {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,45 @@
+/* Hover effect for underline */
+.nav-link-hover {
+    position: relative;
+    padding-bottom: 5px;
+  }
+  
+  .nav-link-hover:hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: green;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .nav-link-hover::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: green;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Dropdown button custom styles */
+  .dropdown-toggle-custom {
+    font-weight: bold;
+    color: rgb(26, 0, 128); /* Set the color to your request */
+  }
+  
+  .sitemap-text {
+    font-weight: bold;
+    margin-right: 10px;
+    color: black; /* Adjust if needed */
+  }
+  
+  /* Ensure dropdown stays open on hover */
+  .nav-hover:hover .dropdown-menu {
+    display: block;
+  }
+  

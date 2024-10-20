@@ -1,0 +1,72 @@
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between news items */
+}
+
+.news-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  flex-wrap: wrap; /* Allow wrapping for small screens */
+}
+
+.news-content {
+  flex: 1;
+  padding-right: 20px; /* Space between text and image */
+  min-width: 250px; /* Ensure some minimum width for content */
+}
+
+.news-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #444; /* Dimmed title color */
+}
+
+.news-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+.news-image {
+  flex-shrink: 0;
+}
+
+.news-image img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .news-item {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .news-content {
+    padding-right: 0; /* Remove right padding */
+    margin-bottom: 15px; /* Add space below content */
+  }
+
+  .news-image img {
+    width: 100%; /* Make image full width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media (max-width: 576px) {
+  .news-title {
+    font-size: 1.25rem; /* Reduce title size */
+  }
+
+  .news-description {
+    font-size: 0.9rem; /* Reduce description size */
+  }
+}

@@ -1,0 +1,46 @@
+.header-section {
+    padding: 40px 0;
+    background-color: #f4f4f4;
+  }
+  
+  .image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  
+  .polyurethane-header {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px; /* Reduced margin to bring it closer */
+  }
+  
+  .polyurethane-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .polyurethane-content {
+    padding-left: 20px; /* Padding between columns */
+  }
+  
+  .product-categories {
+    margin-top: 20px;
+  }
+  
+  .product-categories li {
+    margin: 5px 0; /* Reduced space between list items */
+  }
+  
+  .product-categories a {
+    text-decoration: none;
+    color: #003366;
+    font-size: 1rem;
+  }
+  
+  .product-categories a:hover {
+    text-decoration: underline;
+    color: #007bff;
+  }
+  

@@ -1,0 +1,29 @@
+{
+  "ru": {
+    "translation": {
+      "Home": "glavniy",
+      "About": "o",
+      "Product": "",
+      "Download": "",
+      "Contacts": ""
+    }
+  },
+  "en": {
+    "translation": {
+      "Home": "Home",
+      "About": "About",
+      "Product": "Products",
+      "Download": "Downloads",
+      "Contacts": "Contact"
+    }
+  },
+  "uz": {
+    "translation": {
+      "Home": "Asosiy",
+      "About": "Haqimizda",
+      "Product": "",
+      "Download": "",
+      "Contacts": ""
+    }
+  }
+}

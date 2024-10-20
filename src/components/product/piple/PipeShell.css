@@ -1,0 +1,57 @@
+.pipe-shell {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-image {
+    width: 200px;
+    height: auto;
+  }
+  
+  .area-of-use, .materials, .thickness, .technical-data {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #2f9e44;
+  }
+  
+  .thickness-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .thickness-options label {
+    display: inline-flex;
+    align-items: center;
+    background-color: #e0f7fa;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .thickness-options input {
+    margin-right: 5px;
+  }
+  
+  .technical-data table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .technical-data td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  

@@ -1,0 +1,59 @@
+.timeline-container {
+    position: relative;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px; /* Container's maximum width */
+    border-left: 5px solid #4caf50; /* Line color and thickness */
+    padding-left: 40px; /* More space for the icons */
+}
+
+.timeline-item {
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 50px; /* Space for icons */
+}
+
+.timeline-content {
+    background-color: #4caf50; /* Green background */
+    border-radius: 8px;
+    padding: 15px;
+    color: white; /* Text color */
+    position: relative;
+}
+
+.timeline-year {
+    font-weight: bold;
+    margin-right: 10px; /* Space between year and icon */
+    position: relative;
+    z-index: 1;
+    font-size: 1.2em; /* Slightly larger year font */
+}
+
+.icon {
+    color: #4caf50; /* Icon color */
+    font-size: 15px; /* Icon size */
+    position: absolute;
+    left: -115px; /* Move it outside the timeline */
+    top: 0px; /* Adjust as necessary */
+    z-index: 2; /* Ensure the icon appears above */
+    background-color: rgb(0, 0, 0); /* Circle background color */
+    border-radius: 50%; /* Make it circular */
+    border: 3px solid #4caf50; /* Border around the circle */
+    padding: 10px; /* Space between icon and border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px; /* Circle height */
+    width: 20px; /* Circle width */
+}
+
+.timeline-content p {
+    margin: 0; /* Remove default margin */
+}
+
+.timeline-header {
+    color: #4caf50; /* Green title color */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}

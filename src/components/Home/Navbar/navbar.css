@@ -1,0 +1,49 @@
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.navbar {
+    padding: 10px;
+    background-color: #32CD32;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info a {
+    padding-left: 10px;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .contact-info {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .contact-info a {
+      font-size: 14px;
+    }
+  
+    .countries {
+      justify-content: center;
+    }
+  
+    .countries .btn-group {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
